@@ -194,6 +194,282 @@ html,body{
     border-color: #eb1b33;
     color: #eb1b33;	
 }
+
+
+/*-------------------------------------
+		SLIDER GERIN
+--------------------------------------*/
+/* .wrapper {
+    position: relative;
+    z-index: -1;
+} */
+
+.header-service{
+	
+	padding-bottom: 12px;
+
+}
+.header-service li  a{
+	color: #888;
+	outline: 0;
+}
+/* header-left  */
+.header-left-service li {
+    display: inline-block;
+	margin-right: 50px;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	
+}
+.header-left-service li  i{
+	margin-right:7px;
+	color: #888;
+}
+.header-left-service li :hover {
+	color: #7370d8;
+}/* header-left  */
+
+/* header-right */
+.header-right-service {
+	color: #888;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.header-right-service li {
+	display:inline-block;
+}
+.header-right-service li a{
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 7px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	
+}
+.header-right-service li a:hover{
+	color:#7370d8;
+}
+.reg a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* social-icon */
+.social-icon{
+	margin-left:6px;
+	top:0;
+	right:0;
+}
+.social-icon li a {
+    margin-left:14px;
+}/* social-icon */
+
+/* header-right */
+
+/* modal 
+--------------------*/
+.modal-header-service {
+    border-bottom: none;
+}
+.modal-title-service {
+    font-size: 30px;
+    font-weight: 500;
+    color: #eb1b33;
+}
+.lg-frm button,
+.sm-frm button {
+    margin-top: 25px;
+    background: transparent;
+    border-color: #eb1b33;
+    color: #eb1b33;	
+}
+
+.header-slider-area-service {
+    position: relative;
+    z-index: 1;
+}
+/* .single-slide-item */
+.single-slide-item-service {
+    padding-top: 5px;
+    padding-bottom:100px;
+	background-repeat: no-repeat;
+    background-size: 90% 100%;
+    background-position: center;
+}
+.single-slide-item-service h2 {
+	color:black;
+	font-size:50px;
+	font-weight:500;
+	line-height: 1.28;
+	margin-bottom: 27px;
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+	margin-left: 750px;
+}
+.single-slide-item-service p {
+	color:black;
+	font-size:24px;
+	max-width:805px;
+	font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+	margin-bottom:51px;
+	text-align: left;
+	margin-left: 750px;
+}
+.single-slide-item-service button.slide-btn-service,
+.single-slide-item-service  button:active .slide-btn-service ,
+.single-slide-item-service button:focus .slide-btn-service{
+	display: inline-block;
+    background: white;
+    padding: 17px 50px;
+    color: black;
+    border: 1px solid #000000;
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-right: 36px;
+	margin-bottom: 30px;
+	margin-left: 750px;
+	outline:0;
+	box-shadow:none;
+	-webkit-transition:.5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+.single-slide-item-service  button.slide-btn-service:hover{
+	 background: black;
+	 color: white;
+	 border: 1px solid white;
+}
+.single-slide-item-service.slide-1 {
+	padding-top: 5;
+	background-image:url(../../assets/images/banner/makeup.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item-service.slide-2 {
+	background-image:url(../../assets/images/banner/photoshoot.jpg);
+	position:relative;
+	z-index:1;
+}
+
+.single-slide-item-service.slide-3 {
+	background-image:url(../../assets/images/banner/videoshoot.jpg);
+	position:relative;
+	z-index:1;
+}
+
+.single-slide-item-service.slide-4 {
+	background-image:url(../../assets/images/banner/editing.jpg);
+	position:relative;
+	z-index:1;
+}
+
+.single-slide-item-img-service img{
+	width:auto;
+	height:705px;
+}
+/* .single-slide-item */
+
+
+/* .carousel-indicators */
+.carousel-indicators-service {
+    bottom: 40px;
+    display: none;
+}
+.carousel-indicators-service li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 12px 10px 0 0;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    border-radius: 10px;
+}
+.carousel-indicators-service .active {
+    width: 12px;
+    height: 12px;
+    margin:12px 10px 0 0;
+    background-color: #f7b405;
+	border:1px solid #f7b405;
+}
+/* .carousel-indicators */
+
+/* .carousel-control */
+.carousel-control-service {
+	position:absolute;
+	width:75px;
+	height:75px;
+	line-height:75px;
+	text-align:center;
+	top:39.5%;
+	left:20px;
+	margin-left: 1000px;
+	background:transparent;
+	color:#fff;
+	font-size: 22px;
+	font-weight:700;
+	font-family: 'Lato', sans-serif;
+	border-radius: 50%;
+	-webkit-transition:.5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.carousel-control-service:hover {
+	background: #fff;
+	color:#6967d1;
+	font-size: 22px;
+}
+.carousel-control-service.left,
+.carousel-control-service.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+}
+/* .carousel-control */
+
+/* .carousel-fade */
+.carousel-fade-service .carousel-inner-service .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade-service .carousel-inner-service .item,
+.carousel-fade-service .carousel-inner-service .active.left,
+.carousel-fade-service .carousel-inner-service .active.right {
+  opacity: 0;
+}
+.carousel-fade-service .carousel-inner-service .active,
+.carousel-fade-service .carousel-inner-service .next.left,
+.carousel-fade-service .carousel-inner-service .prev.right {
+  opacity: 1;
+}
+.carousel-fade-service .carousel-inner-service .next,
+.carousel-fade-service .carousel-inner-service .prev,
+.carousel-fade-service .carousel-inner-service .active.left,
+.carousel-fade-service .carousel-inner-service .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade-service .carousel-control-service {
+  z-index: 2;
+}
+
 /*-------------------------------------
 		3. Menu
 --------------------------------------*/
@@ -348,29 +624,31 @@ html,body{
     background-position: center;
 }
 .single-slide-item h2 {
-	color:#fff;
+	color:black;
 	font-size:70px;
 	font-weight:500;
 	line-height: 1.28;
 	margin-bottom: 27px;
 	font-family: 'Playfair Display', serif;
 	text-transform: capitalize;
+	
 }
 .single-slide-item p {
-	color:#fefefe;
+	color: black;
 	font-size:24px;
 	max-width:805px;
 	font-family: 'Lato', sans-serif;
     line-height: 1.5;
 	margin-bottom:51px;
+	
 }
 .single-slide-item button.slide-btn,
 .single-slide-item  button:active .slide-btn ,
 .single-slide-item button:focus .slide-btn{
 	display: inline-block;
-    background: #f5f5fb;
+    background: transparent;
     padding: 17px 50px;
-    color: #5549af;
+    color: #fff;
     border: 1px solid #f5f5fb;
 	font-size:16px;
 	font-weight:600;
@@ -389,12 +667,12 @@ html,body{
 }
 
 .single-slide-item  button.slide-btn:hover{
-	 background: transparent;
-	 color: #fff;
+	 background: black;
+	 color: transparent;
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../assets/images/banner/banermakeup.jpg);
 	position:relative;
 	z-index:1;
 }
@@ -432,6 +710,7 @@ html,body{
     margin: 12px 10px 0 0;
     text-indent: -999px;
     cursor: pointer;
+
     background-color: #fefefe;
     border: 1px solid #fefefe;
     border-radius: 10px;
@@ -455,9 +734,11 @@ html,body{
 	top:39.5%;
 	left:20px;
 	background:transparent;
-	color:#fff;
+	color:black;
 	font-size: 22px;
 	font-weight:700;
+	margin-left: 750px;
+	margin-top: 50px;
 	font-family: 'Lato', sans-serif;
 	border-radius: 50%;
 	-webkit-transition:.5s; 
@@ -468,7 +749,7 @@ html,body{
 }
 .carousel-control:hover {
 	background: #fff;
-	color:#6967d1;
+	color:black;
 	font-size: 22px;
 }
 .carousel-control.left,
@@ -605,6 +886,32 @@ html,body{
 	padding-bottom: 40px;
 }
 
+
+/*-------------------------------------
+		TOP-SERVICE
+--------------------------------------*/
+
+.top-service{
+	padding: 120px 0 50px;
+}
+
+.top-service h2 {
+	color:#4d4e54;	
+	font-size:30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-top: 5px;
+}
+.top-service p{
+	color:#888;	
+	font-size:18px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
+	max-width: 501px;
+    margin-top: 5px;
+    margin-bottom: -18px;
+}
+
 /*-------------------------------------
 		5. About
 --------------------------------------*/
@@ -612,6 +919,12 @@ html,body{
 	background: #f9faff;
 	padding: 120px 0 175px;
 }
+
+.about-us-service{
+	background: ;
+	padding: 120px 0 175px;
+}
+
 .about-us-txt{
 	margin-top: 103px;
 }
