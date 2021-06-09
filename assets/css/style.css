@@ -1,3 +1,4 @@
+
 /*==================================
 * Author        : "ThemeSine"
 * Template Name : Zombiz
@@ -5,11 +6,9 @@
 ==================================== */
 
 /*==================================
-
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Lato', sans-serif;
-
 ==================================== */
 
 
@@ -31,7 +30,6 @@ font-family: 'Lato', sans-serif;
 15. New-project
 16.	Footer
 17.	Footer Copyright
-
 ===========*/
 /*-------------------------------------
 		1.General css (Reset code)
@@ -109,7 +107,6 @@ html,body{
 
 .header{
 	padding-top:0px;
-
 
 }
 .header li  a{
@@ -488,12 +485,12 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: #000000;
+	background: black;
 }
 
 /* sticky */
 .sticky{
-	background: #000000;
+	background: black;
 	padding: 10px 0px 0px;
 	height:120px;
 	color: #fff;
@@ -525,10 +522,9 @@ html,body{
     border-color: transparent;
 }
 .navbar-default .navbar-nav li a{
-	font-size: 16px;
+	font-size: 25px;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
-	font-size: 25px;
 	margin-top:30px;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -608,7 +604,8 @@ html,body{
 }
 .search input.active{
 	border-radius: 0 4px;
-}
+}/* .search */
+
 .container-1{
   width: 300px;
   vertical-align: middle;
@@ -658,7 +655,7 @@ html,body{
     background-position: center;
 }
 .single-slide-item h2 {
-	color:black;
+	color:white;
 	font-size:70px;
 	font-weight:500;
 	line-height: 1.28;
@@ -668,7 +665,7 @@ html,body{
 	
 }
 .single-slide-item p {
-	color: black;
+	color: white;
 	font-size:24px;
 	max-width:805px;
 	font-family: 'Lato', sans-serif;
@@ -692,7 +689,6 @@ html,body{
 	margin-right: 36px;
 	margin-bottom: 30px;
 	outline:0;
-	border-radius: 5%;
 	box-shadow:none;
 	-webkit-transition:.5s; 
 	-moz-transition:.5s; 
@@ -702,15 +698,11 @@ html,body{
 }
 
 .single-slide-item  button.slide-btn:hover{
-<<<<<<< HEAD
-	 background: #000000;
-	 color: #fff;
-=======
 	 background: black;
 	 color: transparent;
->>>>>>> a7fbbb53256e8593da3c0f3b4ca2f35879033f60
 	 border: 1px solid #fff;
 }
+
 
 .single-slide-item .btn-tryservice{
 	display: inline-block;
@@ -740,13 +732,8 @@ html,body{
 	color: #fff;
 	border: 1px solid #fff;
 }
-
 .single-slide-item.slide-1 {
-<<<<<<< HEAD
 	background-image:url(../../assets/images/banner/photo_2021-05-25_10-01-16.jpg);
-=======
-	background-image:url(../../assets/images/banner/banermakeup.jpg);
->>>>>>> a7fbbb53256e8593da3c0f3b4ca2f35879033f60
 	position:relative;
 	z-index:1;
 }
@@ -755,6 +742,7 @@ html,body{
 	position:relative;
 	z-index:1;
 }
+
 .single-slide-item-img img{
 	width:auto;
 	height:705px;
@@ -2600,3 +2588,15 @@ a:active.learn-btn{
 }
 
 /*========================Thank you=================
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
