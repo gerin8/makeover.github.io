@@ -512,13 +512,13 @@ html,body{
 
 /* section-header */
 .section-header h2{
-	color: #44454f;
+	color: #000;
 	font-size: 30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
 .section-header h2 span{
-	color: #4d4e54;
+	color: #000;
 }
 .section-header p{
 	color: #888;
@@ -529,6 +529,48 @@ html,body{
     margin-top: 32px;
     line-height: 1.8;
 }/* section-header */
+
+/* section-header2 */
+.section-header2 h2{
+	color: #000;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.section-header2 h2 span{
+	color: #000;
+}
+.section-header2 p{
+	color: #888;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}/* section-header */
+
+/* section-header3 */
+.section-header3 h2{
+	color: #000;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.section-header3 h2 span{
+	color: #000;
+}
+.section-header3 p{
+	color: #888;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}/* section-header3 */
 
 
 /*single-we-do-box */
@@ -883,6 +925,70 @@ a:focus.service-btn{
 	color: #7370d8;
 	background: transparent;
 }/*project-btn*/
+
+/*project5-btn*/
+.project5-btn{
+	margin-top: 20px;
+	letter-spacing: 1.2px;
+	
+}
+.project5-view:hover {
+	color: #f9faff;
+	background: #000000;
+}
+
+.project5-view {
+    background: #ffffff;
+    border: 3px solid #000000;
+    width:160px;
+    height:60px;
+    line-height: 50px;
+    white-space: nowrap;
+   	text-align: center;
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.project5-view:hover {
+	color: #fcfcfc;
+	background: #000;
+}/*project5-btn*/
+
+/*project10-btn*/
+.project10-btn{
+	margin-top: 20px;
+	letter-spacing: 1.2px;
+	
+}
+.project10-view:hover {
+	color: #f9faff;
+	background: #d83434;
+}
+
+.project10-view {
+    background: #ffffff;
+    border: 3px solid #d83434;
+    width:160px;
+    height:60px;
+    line-height: 50px;
+    white-space: nowrap;
+   	text-align: center;
+    color: #d83434;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.project10-view:hover {
+	color: #fcfcfc;
+	background: #d83434;
+}/*project10-btn*/
 
 /*-------------------------------------
 		9. Team
@@ -1542,15 +1648,32 @@ a:active.learn-btn{
 /*-------------------------------------
 		16. Footer
 --------------------------------------*/
+
+ul1 {
+	list-style:none; /*menghilangkan dot list*/
+	text-align:center;
+  }
+a1 {
+	text-decoration:none; /*menghilangkan garis bawah*/
+	color: #fff; /*memberi warna putih*/
+	font-weight:bold; /*menebalkan font menu*/
+	font-size: 23px;
+	font-family: 'Times New Roman', Times, serif;
+}
+li1 {
+	display:inline; /*membuat menu menjadi Horizontal*/
+	padding:11px; /*ngasi jarak atas bawah kiri kanan di menu*/
+}
+
 .hm-footer{
-    padding-bottom:68px;
-    background: #212135;
+    padding-bottom:5px;
+    background: #000;
 }
 .hm-footer-details {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 .hm-footer-widget{
-	margin-bottom:30px;
+	margin-bottom:50px;
 }
 
 /* hm-foot-title */
@@ -1572,6 +1695,29 @@ a:active.learn-btn{
 	text-transform: initial;
     max-width: 260px;
 }/* hm-foot-title */
+
+/* hm-foot-tulisan */
+.hm-foot-tulisan h4{
+	color:#fff;
+	font-size:20px;
+	margin-bottom: 32px;
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+}
+.hm-foot-tulisan .logo{
+	margin-bottom: 32px;
+}
+.hm-foot-tulisan p{
+	color:#fff;
+	font-size:12px;
+	font-family: 'Times New Roman', sans-serif;
+	text-transform: lowercase;
+	text-transform: initial;
+    max-width: 200pxpx;
+	line-height: 2;
+}/* hm-foot-tulisan */
+
+
 
 /*hm-foot-icon*/
 .hm-foot-icon {
@@ -1708,13 +1854,13 @@ a:active.learn-btn{
 		17. Footer- copyright
 --------------------------------------*/
 .footer-copyright {
-	background:#1a1a2a;
-	padding: 30px 0 35px;
+	background:#000;
+	padding: 30px 0 30px;
 }
 .foot-copyright{
-	color:#8b8b8b;
+	color:#fff;
 	font-size:16px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Times New Roman', sans-serif;
 }
 /* foot-menu  */
 .foot-menu ul li {
@@ -1743,6 +1889,8 @@ a:active.learn-btn{
 	position:relative;
 	padding-left:42px;
 }
+
+
 /*-------------------------------------
 		ABOUT PAGE
 --------------------------------------*/
@@ -1750,6 +1898,24 @@ a:active.learn-btn{
 /*-------------------------------------
 		i. about-part
 --------------------------------------*/
+
+.about-part1{
+	position:relative;
+	background:url(../../assets/images/photo_2021-06-04_14-58-19.jpg)no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 200px 0 500px;
+	z-index:1;
+}
+
+.about-part2{
+	position:relative;
+	background:url(../../assets/images/photo_2021-05-25_10-04-23.jpg)no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 200px 0 500px;
+	z-index:1;
+}
 
 .about-part{
 	position:relative;
@@ -2047,9 +2213,68 @@ a:active.learn-btn{
    	padding: 18px 0 20px;
 }
 
+/*bl-single-para2*/
+.bl-single-para2{
+	padding: 5px 0 0 0;
+}
+
+.bl-single-para2 h3{
+	color: #000;
+    font-size: 22px;
+    font-family: 'Times New Roman', sans-serif;
+	letter-spacing: -0.5px;
+    line-height: 2;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.bl-single-para2 h4{
+	color: #000;
+    font-size: 22px;
+    font-family: 'Times New Roman', sans-serif;
+	letter-spacing: -0.5px;
+    line-height: 2;
+    text-transform: none;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+.bl-single-para2 h5{
+	color: #000;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+	letter-spacing: -0.5px;
+    line-height: 2;
+    text-transform: none;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+.bl-single-para2 p{
+	color: #888;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+	line-height: 1.87;
+    text-transform: none;
+}
+.bl-single-para2  blockquote {
+    color: #636363;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	max-width: 571px;
+    margin: 0 auto;
+    line-height: 1.6;
+    border-left: transparent;
+   	padding: 18px 0 20px;
+}
+/*bl-single-para2*/
+
 /*blog-xtra-body*/
 .blog-xtra-body {
     padding: 32px 0 29px 0;
+}
+
+.blog-xtra-body2 {
+    padding: 0 0 0 0;
 }
 
 .xtra-para{
