@@ -466,7 +466,6 @@ html,body{
 .carousel-fade-service .carousel-control-service {
   z-index: 2;
 }
-
 /*-------------------------------------
 		3. Menu
 --------------------------------------*/
@@ -477,7 +476,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 10px;
+	margin-top: 20px;
 	padding:0;
 }/* navbar-brand */
 
@@ -492,26 +491,35 @@ html,body{
 .sticky{
 	background: black;
 	padding: 10px 0px 0px;
-	height:120px;
-	color: #fff;
+	height:80px;
+	margin-bottom: 5px;
+	color: red;
 }
 
 .sticky  .navbar-brand{
-	margin-top:10px;
+	margin-top:2px;
+	margin-bottom: 5px;
 }
-.sticky  .navbar-default .navbar-nav li a,
-.sticky  .navbar-default .navbar-nav li a:active,
-.sticky  .navbar-default .navbar-nav li a:focus,
+
+
+.sticky  .navbar-default .navbar-nav li a,{
+	color: #FFF;
+}
+.sticky  .navbar-default .navbar-nav li a:active{
+	color: #FFF;
+}
+.sticky  .navbar-default .navbar-nav li a:focus{
+	color: #FF0000;
+}
 .sticky  .navbar-default .navbar-nav li a:hover{
-	color: #fff;
-	margin: 0px 0px;
+	color: #FF0000;
 }
 .sticky .navbar-default .navbar-toggle ,
 .sticky .navbar-default .navbar-toggle:focus,
 .sticky .navbar-default .navbar-toggle:hover {
     background-color: transparent;
     border: 1px solid #000;
-    margin-top: 15px;
+    margin-top: 5px;
 }/* sticky */
 
 /* wrapper-sticky */
@@ -525,23 +533,44 @@ html,body{
 	font-size: 25px;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
-	margin-top:30px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
-	-o-transition:.5s;
-    transition: .5s;
+	margin-top:23px;
+	padding-left: 27px;
+
 }
-.navbar-default.navbar-nav li a:active,
-.navbar-default.navbar-nav li a:focus,
-.navbar-default .navbar-nav li a:hover{
-	color: #e51616;
+
+.navbar-default .navbar-nav li b {
+	font-size: 25px;
+	color: black;
+	padding-top: 30px;
+	padding-left: 5px;
+	text-align: left;
+}
+
+.navbar-default.navbar-nav li a:active{
+	color: #FF0000;
 	outline: 0;
 	font-weight:700;
-	margin-top:10px;
+	margin-top:23px;
 	padding-bottom: 25px;
-	padding-left: 10px;
-	margin-left: 10px;
+	padding-left: 27px;
+}
+
+.navbar-default.navbar-nav li a:focus {
+	color: #FF0000;
+	outline: 0;
+	font-weight:700;
+	margin-top:23px;
+	padding-bottom: 25px;
+	padding-left: 27px;
+
+}
+.navbar-default .navbar-nav li a:hover{
+	color: #FF0000;
+	outline: 0;
+	font-weight:700;
+	margin-top:18px;
+	padding-bottom: 25px;
+	padding-left: 27px;
 
 }
 
@@ -550,13 +579,12 @@ html,body{
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
 	background:transparent;
-    color: #e51616;
+    color:  #FF0000;
 	font-weight:700;
 	font-family: 'Lato', sans-serif;
-	margin-top:10px;
+	margin-top:23px;
 	padding-bottom: 25px;
-	padding-left: 10px;
-	margin-left: 10px;
+	padding-left: 27px;
 }/* navbar-default */
 
 /* navbar-toggle*/
@@ -565,7 +593,7 @@ html,body{
  .navbar-default .navbar-toggle:hover {
     background-color: transparent;
     border: 1px solid #000;
-    margin-top: 25px;
+    margin-top: 23px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
@@ -606,39 +634,54 @@ html,body{
 	border-radius: 0 4px;
 }/* .search */
 
-.container-1{
-  width: 300px;
-  vertical-align: middle;
-  white-space: nowrap;
-  position: relative;
+/*-------------------------------------
+		SEARCH HEADER
+--------------------------------------*/
+.header-search{
+	position: relative;
+	margin:0 0 34px 0;
+}
+ .header-search h2{
+	color:black;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	right: 20px;
+	text-transform: capitalize;
 }
 
 /*--blog sidebar search--*/
-.blogs-widget .form-control {
+.header-search .form-control {
 	position: relative;
-    border-radius: 35px;
     box-shadow: none;
-    outline: 3px;
-    height: 30px;
-    border: 5px solid #d7d7d7;
+    outline: 0;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    border-radius: 60px;
 }
-.blogs-widget input {
+.header-search input {
 	color: #888;
 	font-size: 20px;
-	padding-left: 10px;
+	text-indent: 30px;
+	margin-right: 20px;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	width: 400px;
 }
-.blog-search-icon a{
-	color: #888;
-	position: absolute;
-	top: 15px;
-    right: 18px;
-    font-size: 20px;
-}/*--blog sidebar search--*/
-/* .search */
 
+.header-search-icon b{
+	color:black;
+	position: absolute;
+	left: 5px;
+    bottom: 1px;
+
+}
+
+.sticky .header-search input {
+	margin-top: 5px;
+}
+
+/*--blog sidebar search--*
 /*-------------------------------------
 		4. Slider
 --------------------------------------*/
@@ -2205,6 +2248,8 @@ a:active.learn-btn{
 	font-weight: 500;
 	margin-bottom: 38px;
 }
+
+
 .blog-search-icon a{
 	color: #888;
 	position: absolute;
@@ -2352,6 +2397,8 @@ a:active.learn-btn{
 .pagination-part .pagination {
     margin-top: 63px;
 }/*pagination*/
+
+
 
 /*-------------------------------------
 		BLOG-SINGLE PAGE
