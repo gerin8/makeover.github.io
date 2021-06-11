@@ -2387,6 +2387,15 @@ li1 {
 	z-index:1;
 }
 
+.about5-part{
+	position:relative;
+	background:url(../../assets/images/photo_2021-05-25_10-05-02.jpg)no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 200px 0 500px;
+	z-index:1;
+}
+
 .about-part{
 	position:relative;
 	background:url(../../assets/images/blog/blog-banner.jpg)no-repeat;
