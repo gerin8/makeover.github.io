@@ -659,15 +659,17 @@ html,body{
     height: 40px;
     border: 1px solid #d7d7d7;
     border-radius: 60px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #000;
 }
 .header-search input {
 	color: #888;
-	font-size: 20px;
+	font-size: 15px;
 	text-indent: 30px;
 	margin-right: 20px;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 30px;
-	width: 400px;
+	width: 300px;
 }
 
 .header-search-icon b{
@@ -2769,6 +2771,7 @@ li1 {
    	padding: 18px 0 20px;
 }
 /*bl-single-para2*/
+
 
 /*blog-xtra-body*/
 .blog-xtra-body {
